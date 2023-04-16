@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Unlocking the JWT Treasure">
+  <meta property="og:description" content="A Beginner's Adventure through Secure Data Exchange">
+  <meta property="og:image" content="https://cdn.hashnode.com/res/hashnode/image/upload/v1679259906043/HYa04S5AV.png?w=600&h=600&fit=crop&crop=faces&auto=compress">
+
+  <title>Unlocking the JWT Treasure</title>
+  <meta name="description" content="A Beginner's Adventure through Secure Data Exchange">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Tony Tang Dev</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>Unlocking the JWT Treasure</b></h1>
+
+<p class="post-metadata text-muted">
+  22 March 2023 -  
+  <b>3 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#jwt">
+      <span class="tag badge badge-pill text-primary border border-primary">JWT</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#authentication">
+      <span class="tag badge badge-pill text-primary border border-primary">Authentication</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#security">
+      <span class="tag badge badge-pill text-primary border border-primary">Security</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#web-development">
+      <span class="tag badge badge-pill text-primary border border-primary">Web development</span>
+    </a>
+    </p>
+
+<figure class="figure w-100">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1679519891337/fca5e624-0683-486c-b7e0-2c24ea926779.png?w=1600&amp;h=840&amp;fit=crop&amp;crop=entropy&amp;auto=compress,format&amp;format=webp" class="figure-img img-fluid rounded" alt="A large chest filleed up with jewels" /><figcaption class="figure-caption text-center">A large chest filleed up with jewels</figcaption></figure>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>JSON Web Tokens (JWT) may seem like an enigma for those new to the world of secure data exchange. But imagine embarking on a thrilling adventure, uncovering a treasure trove of valuable information using JWT as your key. With this guide, we’ll help you decipher the secrets of JWT and make its complexities easily digestible. This article will be your trusty treasure map, guiding you through the basics of JWT with entertaining examples and clear explanations. So, gather your explorer’s gear and join us on this exhilarating journey to unlock the treasures hidden within JWT!</p>
+
+<h1 id="the-treasure-chest-secure-data-exchange">The Treasure Chest: Secure Data Exchange</h1>
+
+<p>In our JWT adventure, imagine secure data exchange as a treasure chest filled with precious gems - sensitive information that needs protection. JWT is a compact, self-contained method of securely transmitting information between parties as a JSON object, ensuring that the treasure chest remains safe and its contents are only accessible to the rightful owner.</p>
+
+<h1 id="the-key-json-web-tokens">The Key: JSON Web Tokens</h1>
+
+<p>JSON Web Tokens serve as the key to unlock the treasure chest of secure data exchange. JWTs are strings of characters that encode information about the user, allowing them to access protected resources. Just as a key has unique ridges and cuts, JWTs contain distinct information, ensuring that only authorized individuals can access the data within the treasure chest.</p>
+
+<h1 id="the-locksmith-token-generation-and-signing">The Locksmith: Token Generation and Signing</h1>
+
+<p>In our JWT adventure, the process of creating and signing a token is like visiting a skilled locksmith who crafts a unique key. The server generates a JWT when a user logs in, encoding the user’s information and signing the token with a secret key. This secret key is like the locksmith’s special knowledge, ensuring that the JWT remains secure and tamper-proof.</p>
+
+<h1 id="the-keychain-token-storage">The Keychain: Token Storage</h1>
+
+<p>Once the locksmith has crafted the key, it needs to be stored safely on a keychain for easy access. Similarly, JWTs must be stored securely on the client-side, typically in cookies or local storage. This allows the user to access protected resources without needing to log in repeatedly, as the key (JWT) is readily available on their keychain (storage).</p>
+
+<h1 id="the-guard-token-verification">The Guard: Token Verification</h1>
+
+<p>As you approach the treasure chest with your key, a guard stands watch, ensuring that only those with the correct key can access the chest. In the realm of JWT, the server verifies the token each time the user requests access to protected resources. The guard (server) checks if the key (JWT) is authentic, unexpired, and untampered with before granting access to the treasure chest (secure data).</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>By viewing JWT through the lens of an adventurous journey filled with treasure chests, keys, and skilled locksmiths, beginners can easily grasp the essential components and their roles in the secure data exchange process. Just as an adventurer relies on a carefully crafted key to access their valuable treasure, JWT users can rely on JSON Web Tokens to securely transmit and access sensitive information between parties. So, with your newfound knowledge, go forth and conquer the world of JWT, unlocking the secrets of secure data exchange!</p>
+
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Tony Tang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:tony.tang.developer@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/tonytangdev"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/tony-tang-671248b1"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/TonyTangdev"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

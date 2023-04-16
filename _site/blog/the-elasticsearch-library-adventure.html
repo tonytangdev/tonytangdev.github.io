@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Elasticsearch Library Adventure">
+  <meta property="og:description" content="Discovering Data with Engaging Analogies for Beginners">
+  <meta property="og:image" content="https://cdn.hashnode.com/res/hashnode/image/upload/v1679259906043/HYa04S5AV.png?w=600&h=600&fit=crop&crop=faces&auto=compress">
+
+  <title>The Elasticsearch Library Adventure</title>
+  <meta name="description" content="Discovering Data with Engaging Analogies for Beginners">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Tony Tang Dev</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>The Elasticsearch Library Adventure</b></h1>
+
+<p class="post-metadata text-muted">
+  22 March 2023 -  
+  <b>3 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#database">
+      <span class="tag badge badge-pill text-primary border border-primary">Database</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#elasticsearch">
+      <span class="tag badge badge-pill text-primary border border-primary">Elasticsearch</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#data-storage">
+      <span class="tag badge badge-pill text-primary border border-primary">data storage</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#search-engine">
+      <span class="tag badge badge-pill text-primary border border-primary">search engine</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#data-structure">
+      <span class="tag badge badge-pill text-primary border border-primary">data structure</span>
+    </a>
+    </p>
+
+<figure class="figure w-100">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1679518196012/01ca7813-b417-4296-92d7-faeb5fc92edb.png?w=1600&amp;h=840&amp;fit=crop&amp;crop=entropy&amp;auto=compress,format&amp;format=webp" class="figure-img img-fluid rounded" alt="A very large library filled with books" /><figcaption class="figure-caption text-center">A very large library filled with books</figcaption></figure>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Embarking on your Elasticsearch journey may seem daunting at first, but imagine yourself as an adventurer exploring a grand, well-organized library. This powerful tool for data search and analysis will become your new favorite destination as you uncover its mysteries. In this article, we’ll delve into the basics of Elasticsearch using the captivating library analogy, transforming complex concepts into easily digestible insights. So, grab your backpack and put on your explorer’s hat; we’re about to embark on an enthralling adventure through the Elasticsearch Library!</p>
+
+<h1 id="the-library-elasticsearch">The Library: Elasticsearch</h1>
+
+<p>Elasticsearch is like a vast library with a vast collection of books. It is an open-source, distributed search and analytics engine, designed to handle large volumes of data. Just as a library contains books and organizes them into categories for easy access, Elasticsearch stores and categorizes data for fast and efficient search, allowing you to find the information you need quickly and easily.</p>
+
+<h1 id="the-books-documents">The Books: Documents</h1>
+
+<p>In our library analogy, the books represent the documents in Elasticsearch. Each document consists of data, which can be compared to the content of a book. Documents are the smallest unit of information within Elasticsearch and can be organized into various categories or indices, much like how books are organized into different sections within a library.</p>
+
+<h1 id="the-shelves-indices">The Shelves: Indices</h1>
+
+<p>In Elasticsearch, documents are stored in indices, which are similar to the shelves in a library. Indices are used to organize and categorize documents based on specific attributes, such as their content or subject matter. Just as you would search for a book by locating its shelf in a library, you would search for a document in Elasticsearch by referencing its index.</p>
+
+<h1 id="the-librarian-query">The Librarian: Query</h1>
+
+<p>When you need help finding a book in a library, you can ask the librarian, who uses their knowledge of the library’s organization to locate the desired item. In Elasticsearch, a query serves a similar purpose. It is a request for information from the Elasticsearch engine, which then searches through the indices and returns relevant documents. You can use various query types to refine your search, much like how a librarian may ask you for more details to help locate the book you need.</p>
+
+<h1 id="the-dewey-decimal-system-mapping">The Dewey Decimal System: Mapping</h1>
+
+<p>The Dewey Decimal System is a method used by libraries to classify and organize books based on their subject matter. Elasticsearch uses a similar concept called mapping, which defines the structure and data types of the documents within an index. By specifying how the data should be organized, Elasticsearch can efficiently search for and retrieve relevant documents based on your query.</p>
+
+<h1 id="the-library-card-catalog-inverted-index">The Library Card Catalog: Inverted Index</h1>
+
+<p>In a library, the card catalog allows you to find books by searching through cards containing information about each book. Elasticsearch uses an inverted index to achieve a similar goal. It is a data structure that maps terms or words to their locations within the documents. This allows Elasticsearch to quickly search through the documents and find relevant information based on your query.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>By understanding Elasticsearch through the lens of a library, beginners can grasp its essential components and their roles in the search and analytics process. Just as a library visitor relies on the organization, categorization, and assistance of a librarian to find a specific book, Elasticsearch users can rely on the engine’s indices, mappings, and queries to efficiently search for and analyze relevant data.</p>
+
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Tony Tang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:tony.tang.developer@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/tonytangdev"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/tony-tang-671248b1"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/TonyTangdev"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

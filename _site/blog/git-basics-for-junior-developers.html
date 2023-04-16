@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Git Basics for Junior Developers">
+  <meta property="og:description" content="A Guide with Food Analogy">
+  <meta property="og:image" content="https://cdn.hashnode.com/res/hashnode/image/upload/v1679259906043/HYa04S5AV.png?w=600&h=600&fit=crop&crop=faces&auto=compress">
+
+  <title>Git Basics for Junior Developers</title>
+  <meta name="description" content="A Guide with Food Analogy">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Tony Tang Dev</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link active" href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/about/">About</a>
+
+      
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">
+  <h1><b>Git Basics for Junior Developers</b></h1>
+
+<p class="post-metadata text-muted">
+  19 March 2023 -  
+  <b>3 mins read time</b>
+
+  <br>Tags: 
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#git">
+      <span class="tag badge badge-pill text-primary border border-primary">Git</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#beginner">
+      <span class="tag badge badge-pill text-primary border border-primary">Beginner</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#tutorial">
+      <span class="tag badge badge-pill text-primary border border-primary">Tutorial</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#prgoramming">
+      <span class="tag badge badge-pill text-primary border border-primary">Prgoramming</span>
+    </a>
+    </p>
+
+<figure class="figure w-100">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1679261975049/efbccaac-7320-4f0b-b319-6e079f25655c.png?w=1600&amp;h=840&amp;fit=crop&amp;crop=entropy&amp;auto=compress,format&amp;format=webp" class="figure-img img-fluid rounded" alt="Four cartoon animals cooking a pizza" /><figcaption class="figure-caption text-center">Four cartoon animals cooking a pizza</figcaption></figure>
+
+<p>If you’re new to programming, Git might seem overwhelming at first. However, it’s an essential tool for collaborating on code and version control. In this guide, we’ll cover the basic Git commands you’ll need to know and explain them using a food analogy.</p>
+
+<h2 id="what-is-git">What is Git?</h2>
+
+<p>Git is a version control system that allows you to track changes to your code over time. It allows multiple developers to collaborate on the same codebase, keeping track of all the changes and ensuring that everyone is working on the same version of the code. In our food analogy, think of Git as a recipe book that keeps track of all the ingredients and steps to make a dish.</p>
+
+<h2 id="git-initialization">Git Initialization</h2>
+
+<p>To start using Git, you need to initialize a new Git repository. This creates a new folder called “.git” in your project directory, which contains all the necessary files for Git to keep track of your changes. In our food analogy, initializing a new Git repository is like setting up your kitchen before you start cooking.</p>
+
+<h2 id="git-add">Git Add</h2>
+
+<p>Once you have initialized a new Git repository, you need to tell Git which files to track. You can do this using the git add command, which adds files to the staging area. In our food analogy, adding files to the staging area is like gathering all the necessary ingredients for a recipe before you start cooking.</p>
+
+<h2 id="git-commit">Git Commit</h2>
+
+<p>After adding files to the staging area, you can use the git commit command to save the changes to the repository. Each commit should have a descriptive message that explains the changes made. In our food analogy, committing changes to the repository is like completing a step in a recipe and taking a picture of the dish you just made.</p>
+
+<h2 id="git-push">Git Push</h2>
+
+<p>Once you have committed changes to your local repository, you can push those changes to a remote repository. This is necessary when collaborating with other developers. In our food analogy, pushing changes to a remote repository is like sharing a recipe with others so that they can cook the same dish.</p>
+
+<h2 id="git-pull">Git Pull</h2>
+
+<p>When collaborating with other developers, you’ll need to pull changes from the remote repository to keep your local copy up to date. You can do this using the git pull command, which fetches changes from the remote repository and merges them with your local copy. In our food analogy, pulling changes from the remote repository is like getting updates on a recipe from another chef who has already cooked the same dish.</p>
+
+<h2 id="git-branch">Git Branch</h2>
+
+<p>Git also allows you to create branches, which are different versions of your codebase. This is useful when you want to experiment with new features or make changes without affecting the main codebase. In our food analogy, creating a branch is like creating a variation of a recipe to try out a new ingredient or cooking technique.</p>
+
+<h2 id="git-merge">Git Merge</h2>
+
+<p>After creating a branch and making changes, you can merge the branch back into the main codebase using the git merge command. This combines the changes made in the branch with the main codebase. In our food analogy, merging a branch is like deciding to include a variation of a recipe in the main recipe book.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Git can be intimidating for new developers, but understanding the basics is essential for collaboration and version control. By using a food analogy, we hope that these Git commands have become more accessible and easier to understand. Happy cooking!</p>
+
+
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>Tony Tang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="mailto:tony.tang.developer@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/tonytangdev"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.linkedin.com/in/tony-tang-671248b1"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/TonyTangdev"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

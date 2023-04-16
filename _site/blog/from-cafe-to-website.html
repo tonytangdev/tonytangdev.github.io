@@ -21,12 +21,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta property="og:type" content="website">
-  <meta property="og:title" content="A better Hello World">
-  <meta property="og:description" content="A different “hello world” to demonstrate language features better.">
+  <meta property="og:title" content="From Cafe to Website">
+  <meta property="og:description" content="Exploring SSR and SSG through Metaphors">
   <meta property="og:image" content="https://cdn.hashnode.com/res/hashnode/image/upload/v1679259906043/HYa04S5AV.png?w=600&h=600&fit=crop&crop=faces&auto=compress">
 
-  <title>A better Hello World</title>
-  <meta name="description" content="A different “hello world” to demonstrate language features better.">
+  <title>From Cafe to Website</title>
+  <meta name="description" content="Exploring SSR and SSG through Metaphors">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
 
@@ -73,61 +73,47 @@
 
 </nav>
     <div class="col-lg-10 mx-auto mt-5 markdown-body">
-  <h1><b>A better Hello World</b></h1>
+  <h1><b>From Cafe to Website</b></h1>
 
 <p class="post-metadata text-muted">
-  23 July 2016 -  
-  <b>less than 1 min read time</b>
+  19 March 2023 -  
+  <b>2 mins read time</b>
 
   <br>Tags: 
     
-    <a class="text-decoration-none no-underline" href="/blog/tags#software-development">
-      <span class="tag badge badge-pill text-primary border border-primary">Software Development</span>
+    <a class="text-decoration-none no-underline" href="/blog/tags#ssr">
+      <span class="tag badge badge-pill text-primary border border-primary">SSR</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#web-development">
+      <span class="tag badge badge-pill text-primary border border-primary">Web Development</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/blog/tags#ssg">
+      <span class="tag badge badge-pill text-primary border border-primary">SSG</span>
     </a>
     </p>
 
-<p>Source: <a href="https://ricostacruz.com/til/a-better-hello-world">RICO STA. CRUZ</a></p>
+<figure class="figure w-100">
+  <img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1679261090810/0f94ad4f-520c-4113-bc91-d82b177bfb2b.png?w=1600&amp;h=840&amp;fit=crop&amp;crop=entropy&amp;auto=compress,format&amp;format=webp" class="figure-img img-fluid rounded" alt="A laptop and 2 cups of coffee in a working environment" /><figcaption class="figure-caption text-center">A laptop and 2 cups of coffee in a working environment</figcaption></figure>
 
-<p>The “Hello world” program is usually the first introduction to any programming language. It looks like this in the C programming language:</p>
+<p>As a developer, you may have heard the terms “SSR” and “SSG” thrown around, but what do they actually mean? In this article, we’ll provide a high-level overview of both concepts using metaphors that are easy for beginners to understand.</p>
 
-<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cm">/* hello.c */</span>
-<span class="cp">#import &lt;stdio.h&gt;
-</span>
-<span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
-  <span class="n">printf</span><span class="p">(</span><span class="s">"Hello, world!"</span><span class="p">);</span>
-  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
-<span class="p">}</span>
-</code></pre></div></div>
+<h2 id="ssr-the-custom-made-coffee">SSR: The Custom-Made Coffee</h2>
 
-<p>It demonstrates the minimum amount you need to write a C program. In more modern languages however, this example isn’t as useful anymore. Here’s the same example in Python:</p>
+<p>Imagine you’re at a cafe, and you order a coffee. The barista takes your order and starts making your coffee from scratch, using fresh beans and milk. This is similar to Server-Side Rendering (SSR). When you request a web page that uses SSR, the server generates the HTML content for that page on-the-fly, right there in response to your request. This can be useful for web pages that have dynamic content that needs to be personalized for each user.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># hello.py
-</span><span class="k">print</span> <span class="s">"Hello, world!"</span>
-</code></pre></div></div>
+<h2 id="ssg-the-pre-made-coffee">SSG: The Pre-Made Coffee</h2>
 
-<h2 id="a-better-hello-world">A better hello world</h2>
+<p>Now imagine you’re at the same cafe, and you notice that there are pre-made coffees sitting on the counter, ready for customers to grab and go. This is similar to Static Site Generation (SSG). When you build a website using SSG, the server generates all the HTML pages in advance, based on your source code and content. These pre-made pages are then served to users as they request them. This can be useful for websites that have static content that doesn’t change often.</p>
 
-<p>In today’s world of more succint programming languages, we need a different “hello world” to demonstrate language features better. Here’s what I propose:</p>
+<h2 id="which-one-is-right-for-you">Which One is Right for You?</h2>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>// hello.js
-function getGreeting (name) {
-  return `Hello, ${name}!`
-}
+<p>So, which approach should you use? It depends on the needs of your website. If you have a website with dynamic content that needs to be personalized for each user, then SSR may be the way to go. On the other hand, if your website has static content that doesn’t change often, then SSG may be a better choice.</p>
 
-const message = getGreeting('world')
-console.log(message)
-</code></pre></div></div>
+<h2 id="conclusion">Conclusion</h2>
 
-<p>This simple example demonstrates a few more things than printing strings:</p>
-
-<ul>
-  <li>How to write a function with an argument</li>
-  <li>Returning values from functions</li>
-  <li>How to use variables</li>
-  <li>The naming convention for functions (camelCase versus snake_case)</li>
-  <li>String concatenation</li>
-  <li>Comments</li>
-</ul>
+<p>In summary, Server-Side Rendering (SSR) is like a custom-made coffee at a cafe, where the web page is generated on-the-fly as the user requests it. Static Site Generation (SSG), on the other hand, is like a pre-made coffee that’s waiting for you at the counter, based on the website’s source code and content. By using these metaphors, we hope you now have a better understanding of these web development concepts, and can choose the right approach for your own website.</p>
 
 
 
