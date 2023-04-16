@@ -1,0 +1,29 @@
+- name: AWS Lambda
+  percentage: 75
+  color: success
+
+- name: Firebase Realtime Database
+  percentage: 70
+  color: success
+
+- name: AWS S3
+  percentage: 65
+  color: 
+
+- name: AWS OpenSearch (ElasticSearch)
+  percentage: 65
+  color: 
+
+- name: Cloudfunctions
+  percentage: 65
+  color: 
+
+- name: Firestore
+  percentage: 50
+  color: danger
+
+- name: AWS DynamoDB
+  percentage: 50
+  color: danger
+
+

@@ -1,0 +1,39 @@
+- name: HTML5/CSS3
+  percentage: 90
+  color: success
+
+- name: Javascript
+  percentage: 90
+  color: success
+
+- name: NodeJS
+  percentage: 80
+  color: success
+
+- name: React
+  percentage: 70
+  color: 
+
+- name: React Native
+  percentage: 70
+  color: 
+
+- name: Typescript
+  percentage: 70
+  color: 
+
+- name: Redux
+  percentage: 70
+  color: 
+
+- name: Redux-Saga
+  percentage: 70
+  color: 
+
+- name: XState
+  percentage: 50
+  color: danger
+
+- name: TailwindCSS
+  percentage: 50
+  color: danger
