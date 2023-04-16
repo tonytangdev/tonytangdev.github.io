@@ -1,17 +1,19 @@
-- title: Student, Harvard CS
+- title: Student, Supinfo International University, France
   from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  to: 2019
+  description: At Supinfo International University, I gained comprehensive knowledge in IT and computer science, covering subjects like web development, software engineering, and cybersecurity. I refined my programming skills in languages like JavaScript, Python, and Java, and mastered frameworks like React and Angular. Through project-based learning, I honed my problem-solving and collaboration skills, preparing me for a successful career in the tech industry.
 
-- title: Software Engineer, Google, UK
-  from: 2018
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Web developer, FWA, France
+  from: 2016
+  to: 2017
+  description: As a web programmer at FWA in Paris, I specialized in developing cutting-edge digital solutions using C#, .NET, and .NET Core. My expertise in these Microsoft technologies allowed me to create tailored websites and web applications that catered to the unique needs of clients across various industries. Collaborating with a diverse team of professionals, I honed my skills in writing efficient code, implementing modern security practices, and ensuring optimal performance for our projects. This invaluable experience has equipped me to tackle new challenges and excel in the ever-evolving tech industry.
+
+- title: Web developer, LCL, France
+  from: 2017
+  to: 2019
+  description: At LCL, a leading French bank, I utilized my expertise in Java, SQL, and Selenium to develop and maintain user-friendly digital banking platforms. This experience not only sharpened my coding, data management, and testing skills but also expanded my knowledge of financial industry software development, preparing me for future challenges in the tech world.
+
+- title: Lead developer, Planity, France
+  from: 2020
+  to: today
+  description: Starting my career as a web programmer, I've grown and evolved in the industry, eventually becoming a Lead Developer. My journey has allowed me to acquire extensive expertise in various technologies, while also honing my leadership and project management skills. As a Lead Developer, I now guide and mentor teams to deliver high-quality, innovative digital solutions that align with our clients' objectives and exceed their expectations.
