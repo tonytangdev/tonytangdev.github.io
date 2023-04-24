@@ -1,83 +1,107 @@
 [
   
     {
-      "title"    : "Digital Minimalism",
+      "title"    : "Dinosaurs and Deno",
       "category" : "",
-      "tags"     : "Social Media, Minimalism, Technology",
-      "url"      : "/blog/digital-minimalism",
-      "date"     : "2019-02-20 00:00:00 +0100"
+      "tags"     : "Web Development, JavaScript, Beginner, Typescript, Deno",
+      "url"      : "/blog/dinosaurs-and-deno",
+      "date"     : "2023-04-24 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "Learn React.js in 5 minutes",
+      "title"    : "Redux",
       "category" : "",
-      "tags"     : "React, JavaScript, Web Development",
-      "url"      : "/blog/learn-react-js",
-      "date"     : "2019-02-15 00:00:00 +0100"
+      "tags"     : "Web Development, JavaScript, React, State Management, Beginner",
+      "url"      : "/blog/redux",
+      "date"     : "2023-04-16 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "Clean Coding",
+      "title"    : "The XState Ballet",
       "category" : "",
-      "tags"     : "Software Development, Clean Code",
-      "url"      : "/blog/clean-coding",
-      "date"     : "2018-12-10 00:00:00 +0100"
+      "tags"     : "Web Development, XState, State Machines, State Management",
+      "url"      : "/blog/the-xstate-ballet",
+      "date"     : "2023-04-10 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "What the heck is a Callback?",
+      "title"    : "Esbuild",
       "category" : "",
-      "tags"     : "JavaScript, Nodejs, Web Development",
-      "url"      : "/blog/what-the-heck-is-a-callback",
-      "date"     : "2018-12-01 00:00:00 +0100"
+      "tags"     : "Web Development, JavaScript, Bundlers, Minifiers, TypeScript",
+      "url"      : "/blog/esbuild",
+      "date"     : "2023-04-10 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "4 Lessons After 11 Years in Silicon Valley",
+      "title"    : "The Symphony of AWS Step Functions",
       "category" : "",
-      "tags"     : "",
-      "url"      : "/blog/four-lessons-after-eleven-years-in-silicon-valley",
-      "date"     : "2018-05-09 00:00:00 +0200"
+      "tags"     : "AWS, Lambda, Step Functions, Serverless",
+      "url"      : "/blog/the-symphony-of-aws-step-functions",
+      "date"     : "2023-03-27 00:00:00 +0200"
     } ,
   
     {
-      "title"    : "GitHub Flow",
+      "title"    : "Web3",
       "category" : "",
-      "tags"     : "GitHub, Workflow",
-      "url"      : "/blog/github-flow",
-      "date"     : "2017-01-01 00:00:00 +0100"
+      "tags"     : "Web3, Blockchain",
+      "url"      : "/blog/web3",
+      "date"     : "2023-03-25 00:00:00 +0100"
     } ,
   
     {
-      "title"    : "A better Hello World",
+      "title"    : "Unlocking the JWT Treasure",
       "category" : "",
-      "tags"     : "Software Development",
-      "url"      : "/blog/a-better-hello-world",
-      "date"     : "2016-07-23 00:00:00 +0200"
+      "tags"     : "JWT, Authentication, Security, Web development",
+      "url"      : "/blog/unlocking-the-jwt-treasure",
+      "date"     : "2023-03-22 00:00:00 +0100"
     } ,
   
     {
-      "title"    : "Do not go gentle into that good night",
+      "title"    : "The Elasticsearch Library Adventure",
       "category" : "",
-      "tags"     : "Poetry",
-      "url"      : "/blog/do-not-go-gentle-into-that-good-night",
-      "date"     : "2016-04-17 00:00:00 +0200"
+      "tags"     : "Database, Elasticsearch, data storage, search engine, data structure",
+      "url"      : "/blog/the-elasticsearch-library-adventure",
+      "date"     : "2023-03-22 00:00:00 +0100"
     } ,
   
     {
-      "title"    : "What is version control?",
+      "title"    : "How AWS Cognito is like a Nightclub Bouncer",
       "category" : "",
-      "tags"     : "Version Control",
-      "url"      : "/blog/what-is-version-control",
-      "date"     : "2016-02-09 00:00:00 +0100"
+      "tags"     : "AWS, authentication, authorization, Cognito, Cloud",
+      "url"      : "/blog/how-aws-cognito-is-like-a-nightclub-bouncer",
+      "date"     : "2023-03-19 00:00:00 +0100"
     } ,
   
     {
-      "title"    : "How to undo your git failure?",
+      "title"    : "Git Basics for Junior Developers",
       "category" : "",
-      "tags"     : "External Post, Git",
-      "url"      : "https://blog.usejournal.com/how-to-undo-your-git-failure-b76e31ecac74",
-      "date"     : "2015-09-25 00:00:00 +0200"
+      "tags"     : "Git, Beginner, Tutorial, Prgoramming",
+      "url"      : "/blog/git-basics-for-junior-developers",
+      "date"     : "2023-03-19 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "From Cafe to Website",
+      "category" : "",
+      "tags"     : "SSR, Web Development, SSG",
+      "url"      : "/blog/from-cafe-to-website",
+      "date"     : "2023-03-19 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "DynamoDB",
+      "category" : "",
+      "tags"     : "AWS, Cloud, Database, DynamoDB, NoSQL",
+      "url"      : "/blog/dynamodb",
+      "date"     : "2023-03-19 00:00:00 +0100"
+    } ,
+  
+    {
+      "title"    : "AWS Lambda",
+      "category" : "",
+      "tags"     : "AWS, Serverless, Lambda, Cloud",
+      "url"      : "/blog/aws-lambda",
+      "date"     : "2023-03-19 00:00:00 +0100"
     } 
   
 ]
